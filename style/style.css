@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+* {
+    animation: opacity 1s;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    list-style: none;
+    font-size: 28px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    background-color: #000;
+}
+
+header ul li button {
+    font-size: 28px;
+    border-radius: 50px;
+    background: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+header ul li button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+.container span {
+    font-size: 200px;
+    color: rgb(173, 190, 205);
+    margin-top: 100px;
+}
+
+.container p {
+    font-size: 28px;
+    color: rgb(173, 190, 205);
+    margin-top: 50px;
+}
+
+.cont-ss {
+    text-align: center;
+    margin-top: 100px;
+}
+.cont-ss span {
+    font-size: 60px;
+    color: #E2EAFC;
+    display: flex;
+    justify-content: center;
+}
+.cont-ss p {
+    font-size: 24px;
+    color: #CCDBFD
+}
+.blocks {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.blocks img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    filter: invert(1);
+}
+
+.blocks span {
+    font-size: 35px;
+}
+
+.block1 {
+    height: 300px;
+    width: 700px;
+    padding: 50px;
+    border-radius: 30px 200px 200px 200px;
+    background-color: #0D0D0D;
+}
+.block2 {
+    height: 300px;
+    width: 700px;
+    padding: 50px;
+    border-radius: 200px 30px 200px 30px;
+    background-color: #0D0D0D;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px
+}
+
+footer ul li {
+    color: white;
+    list-style: none;
+    font-size: 18px;
+}
